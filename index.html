@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Photography - Best Photoshoot</title>
+    <meta name="description" content="Professional real estate photography and 3D tours. Over 55+ properties shot since 2024. Trusted by Canadian realtors nationwide.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div>
+                <img src="/photos/star_logo.png" alt="Star Photography Logo" height="40" width="120">
+            </div>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact-info">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Promotional Offer
+                <br>
+                <span class="highlight">Real Estate Photoshoot and 3D Tours</span>
+            </h1>
+            <!-- <p class="hero-subtitle">Over 55,000 Property Shooting Experiences</p> -->
+            <p class="hero-text">Proudly Serving Realtors Since 2024</p>
+            <h2 class="hero-title-cost">Just for $100<sup>*</sup></h2>
+
+            <button class="hero-btn">Call us right now!!</button>
+        </div>
+        
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Professional Services</h2>
+                <p>Comprehensive real estate marketing solutions to showcase your properties at their best</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Professional Photography</h3>
+                    <p>High-resolution images with HDR processing, twilight shots, and drone photography to capture every angle of your property.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path>
+                            <path d="M22 17.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path>
+                            <path d="M22 12.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path>
+                        </svg>
+                    </div>
+                    <h3>3D Virtual Tours</h3>
+                    <p>Interactive 360° virtual tours with dollhouse views, floor plans, and measurement tools for an immersive experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="23,7 16,12 23,17 23,7"></polygon>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                        </svg>
+                    </div>
+                    <h3>Video Production</h3>
+                    <p>Cinematic walkthrough videos, property highlight reels, and promotional content to engage potential buyers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-overlay"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by Professionals Across Canada</h2>
+                <p>Our track record speaks for itself - delivering exceptional results for the real estate industry.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Properties Photographed in GTA</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Happy Realtors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Customer Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Real Estate Professionals Say</h2>
+                <p>Hear from the agents and brokers who trust us with their most important listings</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Star Photography consistently delivers exceptional quality. Their 3D tours have revolutionized how I market luxury properties."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Johnson</strong>
+                        <span>Senior Real Estate Agent, RE/MAX Toronto</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The professionalism and attention to detail is outstanding. My listings sell 40% faster with their marketing materials."</p>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>Broker, Century 21 Vancouver</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best investment I've made for my real estate business. The virtual tours give my clients confidence to make offers."</p>
+                    <div class="testimonial-author">
+                        <strong>Prasad Bugad</strong>
+                        <span>Real Estate Agent, Century 21 Legacy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Gallery Section -->
+   <section id="gallery" class="gallery-section mt-5">
+    <div class="container">
+      <div class="section-header text-center mb-4">
+        <h2>Photo Gallery</h2>
+      </div>
+      <div class="collage">
+        <img src="photos/property01/287-1.jpg" alt="1">
+        <img src="photos/property01/287-2.jpg" alt="2">
+        <img src="photos/property01/287-3.jpg" alt="3">
+        <img src="photos/property01/287-4.jpg" alt="4">
+        <img src="photos/property01/287-5.jpg" alt="5">
+        <img src="photos/property01/287-6.jpg" alt="6">
+        <img src="photos/property01/287-7.jpg" alt="7">
+        <img src="photos/property02/177-1.jpg" alt="8">
+        <img src="photos/property02/177-2.jpg" alt="8">
+        <img src="photos/property02/177-3.jpg" alt="8">
+        <img src="photos/property02/177-4.jpg" alt="8">
+        <img src="photos/property02/177-5.jpg" alt="8">
+        <img src="photos/property02/177-24-highway-little-fort-10356592-10-p.jpg" alt="8">
+        <img src="photos/property02/177-24-highway-little-fort-10356592-25-p.jpg" alt="8">
+
+        <img src="photos/property-3/265-1.jpg" alt="8">
+        <img src="photos/property-3/265-2.jpg" alt="8">
+        <img src="photos/property-3/265-3.jpg" alt="8">
+        <img src="photos/property-3/265-rue-cheval-noir-kamloops-10356613-6-p.jpg" alt="8">
+        <img src="photos/property-3/265-rue-cheval-noir-kamloops-10356613-7-p.jpg" alt="8">
+        <img src="photos/property-3/265-rue-cheval-noir-kamloops-10356613-5-p.jpg" alt="8">
+      </div>
+      <div class="section-header-3d-tour text-center mb-4">
+        <h2>Virtual 3D Tour</h2>
+        <div id="MxA8INw0UCNz"><script type="text/javascript" async data-short="MxA8INw0UCNz" data-path="tours" data-is-self-hosted="undefined" width="100%" height="500px" src="https://app.cloudpano.com/public/shareScript.js"></script></div>
+      </div>
+     
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">🎉 Limited Time Offer</div>
+                <h2 class="gradient-text">Special Promotional Pricing</h2>
+                <p>Get professional real estate marketing materials at an unbeatable price</p>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <div class="discount-badge">70% OFF</div>
+                    <h3>Complete Package</h3>
+                    <p>Everything you need to showcase your property</p>
+                    <div class="price-container">
+                        <span class="old-price">$300</span>
+                        <span class="new-price">$100</span>
+                    </div>
+                    <p class="payment-note">One-time payment</p>
+                </div>
+
+                <div class="pricing-content">
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                                    <circle cx="12" cy="13" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>High Quality Images</h4>
+                                <p>Professional photography with HDR processing and color correction</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path>
+                                    <path d="M22 17.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"></path>
+                                    <path d="M22 12.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>3D Virtual Tours</h4>
+                                <p>Interactive 360° virtual tours with dollhouse and floor plan views</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="23,7 16,12 23,17 23,7"></polygon>
+                                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Promotional Videos</h4>
+                                <p>Cinematic walkthrough videos and property highlight reels</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="included-section">
+                        <h4>What's Included:</h4>
+                        <div class="included-list">
+                            <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>Up to 30 high-resolution photos</span>
+                            </div>
+                            <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>Complete 3D virtual tour</span>
+                            </div>
+                            <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>2-3 minute promotional video</span>
+                            </div>
+                            <!-- <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>Floor plan and measurements</span>
+                            </div> -->
+                            <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>2-Day delivery</span>
+                            </div>
+                            <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>Commercial usage rights</span>
+                            </div>
+                            <div class="included-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20,6 9,17 4,12"></polyline>
+                                </svg>
+                                <span>Drone Photography <sup>*</sup></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cta-section">
+                        <button class="cta-button">Book Now - Save $200</button>
+                        <p class="offer-note">Offer valid until limited spots are filled</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Star Photography</h3>
+                    <p>Canada's premier 3D tour and real estate photography company, serving professionals since 2024.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Real Estate Photography</a></li>
+                        <li><a href="#">3D Virtual Tours</a></li>
+                        <li><a href="#">Video Production</a></li>
+                        <li><a href="#">Drone Photography</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div> -->
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="contact-info" id="contact-info">
+                      <!-- <li><strong>Address:</strong> 123 Main Street, Toronto, ON, Canada</li> -->
+                      <li><strong>Phone:</strong> +1 (437) 972-0635</li>
+                      <li><strong>Email:</strong> contact@example.com</li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Star Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+  
+      
+    <script src="script.js"></script>
+</body>
+</html>
