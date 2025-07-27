@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     bookButtons.forEach(button => {
         button.addEventListener('click', function() {
             // You can replace this with actual booking functionality
-            alert('Thank you for your interest! Please call us at +1 4379720635 or emails to schedule your photo shoot.');
+            alert('Thank you for your interest! Please call us at +1 4379720635 or send email to support@starphotography.ca to schedule your photo shoot.');
         });
     });
 });
